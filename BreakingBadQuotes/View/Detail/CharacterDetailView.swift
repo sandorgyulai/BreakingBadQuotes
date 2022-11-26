@@ -59,5 +59,6 @@ struct CharacterDetailView: View {
 struct CharacterDetailView_Previews: PreviewProvider {
     static var previews: some View {
         CharacterDetailView(character: PreviewCharacter.character)
+            .environmentObject(Favorites())
     }
 }
