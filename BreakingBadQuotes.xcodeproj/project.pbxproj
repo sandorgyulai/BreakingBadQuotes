@@ -8,17 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		55C8A81A29321FFE0014D017 /* BreakingBadQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A81929321FFE0014D017 /* BreakingBadQuotesApp.swift */; };
-		55C8A81C29321FFE0014D017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A81B29321FFE0014D017 /* ContentView.swift */; };
+		55C8A81C29321FFE0014D017 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A81B29321FFE0014D017 /* CharacterListView.swift */; };
 		55C8A81E29321FFF0014D017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C8A81D29321FFF0014D017 /* Assets.xcassets */; };
 		55C8A82129321FFF0014D017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C8A82029321FFF0014D017 /* Preview Assets.xcassets */; };
+		55C8A829293220610014D017 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 55C8A828293220610014D017 /* Alamofire */; };
+		55C8A82E293221C10014D017 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A82D293221C10014D017 /* Character.swift */; };
+		55C8A830293221D20014D017 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A82F293221D20014D017 /* Quote.swift */; };
+		55C8A834293223180014D017 /* CharacterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A833293223180014D017 /* CharacterCellView.swift */; };
+		55C8A836293223350014D017 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A835293223350014D017 /* CharacterList.swift */; };
+		55C8A8382932235D0014D017 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A8372932235D0014D017 /* API.swift */; };
+		55C8A83A2932279D0014D017 /* PreviewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A8392932279D0014D017 /* PreviewModels.swift */; };
+		55C8A83C293228C30014D017 /* QuoteTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A83B293228C30014D017 /* QuoteTextView.swift */; };
+		55C8A83E2932291A0014D017 /* CharacterDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A83D2932291A0014D017 /* CharacterDetailHeaderView.swift */; };
+		55C8A842293229EF0014D017 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A841293229EF0014D017 /* CharacterDetailView.swift */; };
+		55C8A84429322A2C0014D017 /* QuoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A84329322A2C0014D017 /* QuoteList.swift */; };
+		55C8A84629322C180014D017 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A84529322C180014D017 /* Favorites.swift */; };
+		55C8A849293238660014D017 /* TextView+CaptionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8A848293238660014D017 /* TextView+CaptionStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55C8A81629321FFE0014D017 /* BreakingBadQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBadQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C8A81929321FFE0014D017 /* BreakingBadQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadQuotesApp.swift; sourceTree = "<group>"; };
-		55C8A81B29321FFE0014D017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55C8A81B29321FFE0014D017 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
 		55C8A81D29321FFF0014D017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C8A82029321FFF0014D017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C8A82D293221C10014D017 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		55C8A82F293221D20014D017 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		55C8A833293223180014D017 /* CharacterCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellView.swift; sourceTree = "<group>"; };
+		55C8A835293223350014D017 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		55C8A8372932235D0014D017 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		55C8A8392932279D0014D017 /* PreviewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewModels.swift; sourceTree = "<group>"; };
+		55C8A83B293228C30014D017 /* QuoteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTextView.swift; sourceTree = "<group>"; };
+		55C8A83D2932291A0014D017 /* CharacterDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailHeaderView.swift; sourceTree = "<group>"; };
+		55C8A841293229EF0014D017 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		55C8A84329322A2C0014D017 /* QuoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteList.swift; sourceTree = "<group>"; };
+		55C8A84529322C180014D017 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		55C8A8472932361D0014D017 /* QUESTIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QUESTIONS.md; sourceTree = "<group>"; };
+		55C8A848293238660014D017 /* TextView+CaptionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView+CaptionStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C8A829293220610014D017 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +62,7 @@
 		55C8A80D29321FFE0014D017 = {
 			isa = PBXGroup;
 			children = (
+				55C8A8472932361D0014D017 /* QUESTIONS.md */,
 				55C8A81829321FFE0014D017 /* BreakingBadQuotes */,
 				55C8A81729321FFE0014D017 /* Products */,
 			);
@@ -52,7 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				55C8A81929321FFE0014D017 /* BreakingBadQuotesApp.swift */,
-				55C8A81B29321FFE0014D017 /* ContentView.swift */,
+				55C8A8372932235D0014D017 /* API.swift */,
+				55C8A82C293221B60014D017 /* Model */,
+				55C8A82B293221B30014D017 /* View */,
+				55C8A82A293221A70014D017 /* ViewModel */,
+				55C8A84A2932386C0014D017 /* Extensions */,
 				55C8A81D29321FFF0014D017 /* Assets.xcassets */,
 				55C8A81F29321FFF0014D017 /* Preview Content */,
 			);
@@ -63,8 +95,64 @@
 			isa = PBXGroup;
 			children = (
 				55C8A82029321FFF0014D017 /* Preview Assets.xcassets */,
+				55C8A8392932279D0014D017 /* PreviewModels.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55C8A82A293221A70014D017 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A835293223350014D017 /* CharacterList.swift */,
+				55C8A84329322A2C0014D017 /* QuoteList.swift */,
+				55C8A84529322C180014D017 /* Favorites.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55C8A82B293221B30014D017 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A83F293229200014D017 /* List */,
+				55C8A840293229260014D017 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55C8A82C293221B60014D017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A82D293221C10014D017 /* Character.swift */,
+				55C8A82F293221D20014D017 /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55C8A83F293229200014D017 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A81B29321FFE0014D017 /* CharacterListView.swift */,
+				55C8A833293223180014D017 /* CharacterCellView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		55C8A840293229260014D017 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A841293229EF0014D017 /* CharacterDetailView.swift */,
+				55C8A83D2932291A0014D017 /* CharacterDetailHeaderView.swift */,
+				55C8A83B293228C30014D017 /* QuoteTextView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		55C8A84A2932386C0014D017 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55C8A848293238660014D017 /* TextView+CaptionStyle.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,9 @@
 			dependencies = (
 			);
 			name = BreakingBadQuotes;
+			packageProductDependencies = (
+				55C8A828293220610014D017 /* Alamofire */,
+			);
 			productName = BreakingBadQuotes;
 			productReference = 55C8A81629321FFE0014D017 /* BreakingBadQuotes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 55C8A80D29321FFE0014D017;
+			packageReferences = (
+				55C8A827293220610014D017 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 55C8A81729321FFE0014D017 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +231,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C8A81C29321FFE0014D017 /* ContentView.swift in Sources */,
+				55C8A830293221D20014D017 /* Quote.swift in Sources */,
+				55C8A842293229EF0014D017 /* CharacterDetailView.swift in Sources */,
+				55C8A82E293221C10014D017 /* Character.swift in Sources */,
+				55C8A81C29321FFE0014D017 /* CharacterListView.swift in Sources */,
+				55C8A84429322A2C0014D017 /* QuoteList.swift in Sources */,
+				55C8A836293223350014D017 /* CharacterList.swift in Sources */,
+				55C8A83E2932291A0014D017 /* CharacterDetailHeaderView.swift in Sources */,
+				55C8A83A2932279D0014D017 /* PreviewModels.swift in Sources */,
+				55C8A834293223180014D017 /* CharacterCellView.swift in Sources */,
 				55C8A81A29321FFE0014D017 /* BreakingBadQuotesApp.swift in Sources */,
+				55C8A8382932235D0014D017 /* API.swift in Sources */,
+				55C8A83C293228C30014D017 /* QuoteTextView.swift in Sources */,
+				55C8A849293238660014D017 /* TextView+CaptionStyle.swift in Sources */,
+				55C8A84629322C180014D017 /* Favorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreakingBadQuotes/Preview Content\"";
-				DEVELOPMENT_TEAM = N9UN8LRZAL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -275,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BreakingBadQuotes/Preview Content\"";
-				DEVELOPMENT_TEAM = N9UN8LRZAL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +411,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55C8A827293220610014D017 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55C8A828293220610014D017 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55C8A827293220610014D017 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55C8A80E29321FFE0014D017 /* Project object */;
 }
